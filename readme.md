@@ -38,7 +38,7 @@ In this phase, we have created detailed design mockups using Figma. Our design i
 
 To get started, follow these instructions:
 
-1. **GitHub Repository:** Access our GitHub repository [insert link here].
+1. **GitHub Repository:** Access our GitHub repository https://github.com/Tyandre-Fletcher-Sec-E/Group-Project.git.
 2. **Project Structure:** We have set up the basic structure of our website using HTML, CSS, and JavaScript. Bootstrap has been integrated into our project.
 3. **README:** This file serves as the README for our project. It includes project overview, setup instructions, and contribution guidelines.
 
