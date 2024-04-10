@@ -46,12 +46,12 @@ To get started, follow these instructions:
 
 1. Clone the repository to your local machine using the command:
    ```bash
-    git clone [insert repository URL here]
+    git clone https://github.com/Tyandre-Fletcher-Sec-E/Group-Project.git
     ```
 
 2. Navigate to the project directory:
    ```bash
-    cd [project directory name]
+    cd Group-Project
     ```
 
 3. Open the `index.html` file in your preferred web browser to view the website.
