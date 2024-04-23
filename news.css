@@ -1,0 +1,153 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 30px;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+.card nav {
+    font-size: x-small;
+    font-style: italic;
+}
+
+
+.text-container {
+    text-align: center;
+    position: relative; 
+    right: 50px;
+    bottom: 50px;
+  }
+
+.card-text {
+    position: absolute;
+    top: 500px; 
+    left: 80%; 
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: px;
+    gap: 20px;
+    position: relative; 
+    bottom: -300px;
+    right: -1000px;
+  }
+  
+  .img-container img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .bottom-heading {
+    position: absolute;
+    bottom: -120px; 
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .line hr {
+    position: absolute;
+    bottom: -130px; 
+    left: 0px;
+    right: 0px;
+    width: 100%; 
+    margin: 5px; 
+    align-items: center;
+  }
+
+.schedule-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #c49ff5;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -160px; 
+    right: 60px;
+  }
+  
+  .schedule-button:hover {
+    background-color: #6d21f2;
+  }
+  
+  .schedule-button .arrow {
+    display: none;
+    width: 10px;
+    height: 10px;
+    fill: #ffffff;
+  }
+  
+footer {
+    background-color: black;
+    color: white;
+    margin: 20% 0 0 0;
+    padding:5px;
+    height: 800px;
+}
+
+.footer-container {
+    display: flex;
+    padding:0 0 2px 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10%;
+}
+
+.copyright {
+    text-align: center;
+    font-family: "Inria serif";
+    padding:0 0 0 20px;
+}
+
+footer h3 {
+    text-align: right;
+    padding: 30px 0 0 0;
+    margin: 0 1em 0 0;
+    font-family: "Inria Serif";
+}
+
+#footer-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding:0 0 0 30px;
+}
+
+footer h4 {
+    margin: 0 15% 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
