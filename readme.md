@@ -64,4 +64,7 @@ To get started, follow these instructions:
 4. Test your changes thoroughly.
 5. Submit a pull request, detailing the changes made and any relevant information.
 
+##View Our Site on Github Pages
+https://tyandre-fletcher-sec-e.github.io/Group-Project/
+
 Thank you for being a part of our project! Let's collaborate and build the future together.
