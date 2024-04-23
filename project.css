@@ -1,0 +1,144 @@
+@font-face {
+    font-family:"Inria Serif";
+    src: url(InriaSerif-Regular.ttf);
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family:"Inria Serif";
+}
+    
+a{
+    font-family: "Inria Serif";
+}
+
+#title{
+    font-family: "Inria Serif";
+    font-weight: bold;
+    font-size: 120px;
+    text-align: center;
+    margin:10% 0 0 0;
+}
+
+.seperator {
+    height: 4px;
+    background: black;
+    margin: 4% 8rem 0 8rem;
+    border-radius: 3px;
+}
+
+.seperator2 {
+    height: 4px;
+    background: black;
+    margin: 0 5rem 0 5rem;
+    border-radius: 3px;
+}
+
+#Recent {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inria Serif";
+    padding: 2rem 8rem;
+
+}
+
+.img {
+    height: 50%;
+    width: 40%;
+}
+
+
+.mx-6 {
+    margin:0 8rem 0 8rem;
+}
+
+h5 {
+    font-family: "Inria Serif";
+    font-weight: bold;
+    margin: 0 0 0 8rem;
+    padding: 5% 0 0 0;
+}
+
+.nyt {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50px;
+    font-family: "Inria Serif";
+    font-weight: bold;
+}
+
+.p-2{
+    font-family: "Inria Serif";
+    font-weight: bold;
+}
+
+img {
+    width: 75%;
+    height: 2%;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 20% 0 0 0;
+    padding:5px;
+}
+
+.footer-container {
+    display: flex;
+    padding:0 0 2px 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10%;
+}
+
+.copyright {
+    text-align: center;
+    font-family: "Inria serif";
+    padding:0 0 0 20px;
+}
+
+footer h3 {
+    text-align: right;
+    padding: 30px 0 0 0;
+    margin: 0 1em 0 0;
+    font-family: "Inria Serif";
+}
+
+#footer-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding:0 0 0 30px;
+}
+
+footer h4 {
+    margin: 0 15% 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+@media (max-width: 575.98px) {  
+    #seperator {
+        height: 4px;
+        background: black;
+        margin: 4% 4rem 0 4rem;
+        border-radius: 3px;
+    }
+
+    .mx-6 {
+        margin:0 2.5rem 0 2.5rem;
+    }
+}

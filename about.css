@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.navbar {
+    background: none;
+    margin-top: -30px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 28px; /* Increase font size by 2px */
+    font-weight: bold; /* Make bold */
+    margin-left: 10%;
+}
+.button {
+    margin-right: 0%;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.additional-image {
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 50%;
+    height: auto;
+}
+.project-image {
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.text-uppercase {
+    letter-spacing: .1em;
+    font-weight: 600;
+}
+
+.about-section {
+    margin-top: 4rem;
+}
+.space {
+    height: 100px;
+}
+.text-left {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 19px;
+    text-align: left;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.footer-box h6 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-box.subscribe form {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.footer-box.subscribe form input[type=email] {
+    border: none;
+    background-color: #f7f7f7;
+    flex: 1;
+    padding: 15px;
+    color: #fff;
+    margin-left: -27px;
+}
+
+.footer-box.subscribe form button {
+    margin-left: -20px;
+    border: none;
+    background-color: #093144;
+    color: #f28123;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+
+.footer-box.subscribe form button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .footer-box {
+        text-align: center;
+    }
+}

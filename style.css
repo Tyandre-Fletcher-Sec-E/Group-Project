@@ -1,0 +1,206 @@
+.navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 28px; /* Increase font size by 2px */
+    font-weight: bold; /* Make bold */
+    margin-left: 10%;
+}
+.button {
+    margin-right: 0%;
+}
+.content {
+    text-align: center;
+    margin-top: 13%;
+    font-size: 20px; /* Increase font size by 2px */
+}
+.content h1 {
+    font-size: 110px; /* Increase size for builders for the future by 20px */
+}
+.line {
+    width: 80%;
+    border-top: 2px solid #ccc; /* Make line bold */
+    margin: 30px auto;
+}
+.call-button {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 22px;
+    font-style: italic; /* Make italic */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+.image {
+    margin-top: 30px;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px; /* Border radius of 10px */
+    border: 2px gray;
+}
+.image-container {
+border-radius: 10px; /* Border radius of 10px */
+margin: 0 auto;
+margin-top: 10%; /* Adjust margin-top as needed */
+display: flex; /* Add */
+justify-content: center; /* Add */
+margin-bottom: 100px;
+
+}
+.call-button_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.call-button_1 p {
+    margin-top: -10px;
+}
+
+.call-button_1 div {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.borderexample {
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0; /* Adjust margin to remove space between h3 and p */
+}
+    .content_2 {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 20px; /* Increase font size by 2px */
+}
+.content_2 h1 {
+    font-size: 70px; /* Increase size for builders for the future by 20px */
+}
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading-container h1 {
+    font-size: 90px;
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.heading-container p {
+    flex: 1;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 12%;
+    font-size: 30px;
+}
+.article-text {
+    margin-top: 20px;
+    border: 2px grey;
+    border-radius: 20px;
+    background-color: #c2bfbf;
+    padding: 20px;
+}
+
+.space {
+    height: 20vh;
+}
+.text-left {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 19px;
+    text-align: left;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.footer-box h6 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-box.subscribe form {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.footer-box.subscribe form input[type=email] {
+    border: none;
+    background-color: #f7f7f7;
+    flex: 1;
+    padding: 15px;
+    color: #fff;
+    margin-left: -27px;
+}
+
+.footer-box.subscribe form button {
+    margin-left: -20px;
+    border: none;
+    background-color: #093144;
+    color: #f28123;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+
+.footer-box.subscribe form button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .footer-box {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .call-button_1 {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+        width: 100%;
+    }
+
+    .call-button_1 div {
+        margin-bottom: 10px; /* Add spacing between elements */
+    }
+
+    .borderexample {
+        margin-top: -10px; /* Adjust margin to create space between h3 and p */
+        width: 180px;
+    }
+
+    .call-button_1 i {
+        margin-top: -100px;
+        margin-left: 270px; /* Add spacing between the <p> and the icon */
+    }
+    .heading-container h1{
+        font-size: 60px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .heading-container p{
+        text-align: center;
+        padding: 10%;
+    }
+    .content h1 {
+        font-size: 70px;
+    }
+}
