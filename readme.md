@@ -1,4 +1,4 @@
-# Web Development Group Project Phase 2
+# Web Development Group Project
 
 ## Project Overview
 
